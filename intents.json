@@ -1,0 +1,37 @@
+{
+        "intents" : [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                        "Hi",
+                        "Hey",
+                        "What's up",
+                        "What's up",
+                        "How are you doing?"
+                 ],
+                          "responses": [
+                        "Hello Sir",
+                        "Hello, What i can do for you..?"
+                          ]
+                },
+                {
+                  "tag": "assistant",
+                        "patterns": [
+                        "who are you",
+                        "what is your name",
+                        "who is your Owner"
+                 ],
+                          "responses": [
+                        "Hello, i'm assistant , and created by Muhammad Awais"
+                          ]
+                },
+                {
+                  "tag": "file",
+                        "patterns": [
+                        "create a file",
+                        "create a new file"
+                  ],
+                          "responses": []
+                }
+        ]
+}
